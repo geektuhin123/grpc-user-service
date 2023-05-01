@@ -1,0 +1,20 @@
+{
+  "name": "grpc-user-service",
+  "version": "1.0.0",
+  "description": "This is an example User Service using gRPC in Node.js",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.4.0",
+    "@grpc/proto-loader": "^0.5.0",
+    "google-protobuf": "^3.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "grpc-tools": "^1.11.1",
+    "typescript": "^4.4.4"
+  }
+}
